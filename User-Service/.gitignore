@@ -1,0 +1,84 @@
+# =========================
+# Build Artifacts
+# =========================
+target/
+build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# =========================
+# Maven Wrapper
+# =========================
+.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+mvnw.bat
+mvnw
+mvnw.cmd
+
+# =========================
+# STS / Eclipse Specific
+# =========================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# NetBeans
+# =========================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# =========================
+# Logs & Temporary Files
+# =========================
+logs/
+*.log
+*.tmp
+*.swp
+*.swo
+
+# =========================
+# OS-specific Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment & Config Files
+# =========================
+.env
+application-*.yml
+application-*.properties
+
+# =========================
+# Docker-related (optional)
+# =========================
+docker-compose.override.yml
+*.pid
+
+# =========================
+# Misc
+# =========================
+HELP.md
